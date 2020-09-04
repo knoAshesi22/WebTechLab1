@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+
+
+.center{
+    margin: auto;
+    width: 78vw;
+    height: 100vh;
+    background-color: white;
+
+}
+
+/*.cpart{*/
+/*    margin: auto;*/
+/*    width: 100%;*/
+/*}*/
+
+.banner{
+    /*background-color: blue;*/
+    background-image: url("img/banner2.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    height: 15%;
+    /*height: 10vh;*/
+}
+
+.menu{
+    background-color: black;
+    height: 5%;
+    /*height: 5vh;*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    width: 16%;
+    border: green;
+
+}
+
+nav > ul > li > a {
+    horiz-align: center;
+    display: block;
+    line-height: 2em;
+    color: white;
+
+}
+
+.content{
+
+    background-color: white;
+    height: 75%;
+    /*height: 80vh;*/
+
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+/*.content>*{*/
+/*    vertical-align: top;*/
+/*    horiz-align: center;*/
+/*    color: green;*/
+/*}*/
+
+.footer{
+    /*background-color: -moz-mac-accentdarkshadow;*/
+    background-color: black;
+    color: white;
+    height: 5%;
+    /*content: open-quote;*/
+    /*height: 5vh;*/
+}
+
+
+.footer span::after{
+    content: "(c) Kofi Nyantekyi-Owusu";
+
+}
